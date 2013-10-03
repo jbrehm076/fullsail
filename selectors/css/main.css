@@ -1,0 +1,32 @@
+/* CSS Coded By Jeramie Brehm*/
+
+/* element and class*/
+.section {
+	color: blue;	
+}
+
+/*id and descendant */
+#alpha {
+	color: red;
+}
+
+/*multiple */
+.section, p {
+	font-family:"Comic Sans MS", cursive;
+}
+
+/*Universal */
+ol * {
+	font-weight:bold;	
+}
+
+/*pseudo element */
+div p:first-line {
+	font-family:Helvetica;
+	color: green;
+}
+
+/*pseudo-class and combinator*/
+ol > li:first-child {
+	color: darkgray;	
+}
