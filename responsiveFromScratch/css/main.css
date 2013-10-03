@@ -1,0 +1,81 @@
+/* CSS Document */
+body {
+	font: 100%/1.5 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #C1D8FF;
+	max-width:960px;
+	margin: 30px auto;
+}
+
+header {
+	background-color: gray;
+	color: white;
+	padding-left: 0.1111111111111%;
+	width: 100%;
+}
+
+header h1 {
+	font-size: 1.5em; /*24px*/
+}
+
+nav li {
+	display:inline;
+	font-size: 1.125em /*18px*/
+}
+
+/*move text off edges*/
+article {
+	padding: 0 0.555555555556%;
+}
+
+article h2{
+	font-size: 1.25em;/*18px*/
+}
+
+article p {
+	font-size: 0.875em;
+}
+
+#imgContainer {
+	width: 100%;
+	margin: 0 auto;
+}
+/*center image */
+img.center {
+	display:block;
+	margin:auto;
+}
+
+#imgArcher {
+	max-width: 100%
+}
+
+/*standardize quote box container shaping*/
+.container {
+	width:31.111111111111%;/*280px / 900px*/
+	margin: 0 auto;
+	float: left;
+}
+
+/*wrapper to move content off edges of screen*/
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*********** Media Queries ************/
+
+/*tablet portrait to standard 960*/
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	body {background-color: #b4ffb2;}
+}
+
+/* mobile landscape to tablet portrait*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	body {background-color: #ffe8b6;}
+}
+
+/* mobile portrait to mobile landscape*/
+@media screen and (max-width: 479px) {
+	body {background-color: #eea3ff;}
+}
