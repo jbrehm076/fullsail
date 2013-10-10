@@ -1,0 +1,12 @@
+
+
+#main, footer, article{
+	clear:both;	
+}
+
+header, footer{
+	background-color: #CCC;	
+}
+footer {
+	text-align: center;	
+}
