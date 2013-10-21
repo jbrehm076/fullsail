@@ -1,0 +1,15 @@
+
+iframe {
+     border-width:0;
+     width: 800px;
+     height:600px;
+     max-width:100%;
+}
+
+#vidLinks ul {
+	list-style-type:none;
+}
+
+#contactCont {
+	text-align:center;
+}
