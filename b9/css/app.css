@@ -1,29 +1,55 @@
 
 body {
-	/*browsers not supporting multiple bg's will still write this first, ignore other*/
-	background: url(back.png) 0 0 no-repeat;
-
-/* Multi-background supporting browsers */
-background:
-   url(top.png) 0 0 no-repeat,
-   url(middle.png) 100% 0 no-repeat,
-   url(back.png) 0 100% no-repeat;
+            /*browsers not supporting multiple bg's will still write this first, ignore other*/
+            background: url(back.png) 0 0 no-repeat;
+             /* Multi-background supporting browsers */
+            background:
+                   url(top.png) 0 0 no-repeat,
+                   url(middle.png) 100% 0 no-repeat,
+                   url(back.png) 0 100% no-repeat;
 }
+
+h3 ,#contactTitle h5{ 
+           font-family: 'Marcellus SC', serif; 
+           font-variant:small-caps;font-family
+}
+
+#libraryLinks h5, footer p{
+        text-align:center;  
+}
+
+#events, #photosCont h3{ 
+           font-family: 'Nobile', sans-serif;
+}
+
+#homeAbout, #contactBody, #officers { 
+            margin-bottom:5%;
+}
+#eventSide img { 
+            margin-bottom: 10%;
+}
+
 iframe {
-     border-width:0;
-     width: 800px;
-     height:600px;
-     max-width:100%;
+   	border-width:0;
+   	width: 800px;
+ 	height:600px;
+   	max-width:100%;
 }
 
-#vidLinks ul ,#bod ul, #ofcCont ul{
-	list-style-type:none;
+#galleryList a{
+	width:auto;
+	height:100%;
+}
+#vidLinks ul ,#bod ul, #ofcCont ul, #contactBody ul{
+        list-style-type:none;
 }
 
-#contactCont {
-	text-align:center;
+#contactTitle {
+        text-align:center;
+        margin-top:5%;
+        margin-bottom:10%;        
 }
 
-#photos img {
-	box-shadow: 5px 5px 25px #000;	
+#homePic, #p1Pic1, #p1Pic2, #photos img {
+        box-shadow: 5px 5px 20px #000;        
 }
