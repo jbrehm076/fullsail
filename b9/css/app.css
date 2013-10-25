@@ -1,20 +1,35 @@
 
-body {
-            /*browsers not supporting multiple bg's will still write this first, ignore other*/
-            background: url(back.png) 0 0 no-repeat;
-             /* Multi-background supporting browsers */
-            background:
-                   url(top.png) 0 0 no-repeat,
-                   url(middle.png) 100% 0 no-repeat,
-                   url(back.png) 0 100% no-repeat;
+#fsbg1 { 
+      position:fixed;
+      top:0px;
+      left:0px;
+      z-index:-10;
+      width:100%;
+      height:auto;
+      min-height:100%;
+      min-width:1040px;
 }
 
+#wrapper { 
+      background: rgba(219,247,255, 0.5);
+
+}
+.panel { 
+       border-radius: 10px;
+       border:solid;
+       border-width:medium;
+}
+
+#p1Pic1 img{ 
+        max-width:100%;
+        
+}
 h3 ,#contactTitle h5{ 
            font-family: 'Marcellus SC', serif; 
-           font-variant:small-caps;font-family
+           font-variant:small-caps;
 }
 
-#libraryLinks h5, footer p{
+#libraryLinks h5, footer{
         text-align:center;  
 }
 
@@ -29,19 +44,34 @@ h3 ,#contactTitle h5{
             margin-bottom: 10%;
 }
 
-iframe {
-   	border-width:0;
-   	width: 800px;
- 	height:600px;
-   	max-width:100%;
+#galleryR1 a{
+           float: left;
+           padding: 1%;
+           width:25%; 
+   
+}
+#bigCal iframe{ 
+         width:800px;
+         height:600px;
 }
 
-#galleryList a{
-	width:auto;
-	height:100%;
+#midCal iframe{ 
+        width:600px;
+        height:450px;
 }
-#vidLinks ul ,#bod ul, #ofcCont ul, #contactBody ul{
-        list-style-type:none;
+
+#smallCal iframe{ 
+        width:400px;
+        height:300px;
+}
+
+iframe {
+   	  border-width:0;
+      max-width:100%;
+}
+
+#vidLinks ul, #ofcCont ul, #contactBody ul, galleryR1 ul, #bod ul, #bodB ul { 
+         list-style-type:none;
 }
 
 #contactTitle {
@@ -50,6 +80,32 @@ iframe {
         margin-bottom:10%;        
 }
 
-#homePic, #p1Pic1, #p1Pic2, #photos img {
+#homePic, #photos img {
         box-shadow: 5px 5px 20px #000;        
+}
+
+#th1 { 
+     width:300px;
+}
+
+#th2 { 
+     width:200px;
+}
+
+#th3 { 
+     width:150px;
+}
+
+#galleryR1 a {
+       -webkit-transition:all 2s ease;
+       -ms-transition:all 2s ease;
+       -moz-transition:all 2s ease;
+       transition:all 2s ease;
+}
+
+#galleryR1 a:hover { 
+       z-index: 1;
+       transform: scale(2,2);
+       -ms-transform: scale(2,2);
+       -webkit-transform: scale(2,2);
 }
