@@ -1,0 +1,231 @@
+body {
+    background-image: url('../img/fabric.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 { font: 400 30pt "Roboto", sans-serif;}
+h2 { font: 400 24pt "Roboto", sans-serif;}
+h3 ,#table1 td:nth-child(odd){ font: italic 700 16pt "Roboto", sans-serif; }
+p {font:400 14pt "Roboto",sans-serif;}
+
+header{
+    border:1px solid black;
+    color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+#loginBtn {width:80px;}
+
+#logoBox img{width:200px;margin-top:10px;}
+
+#form1 input,#form1 a{
+    height: 30px;
+    margin-top:5px;
+    border-radius: 6px;
+}
+
+#nav2Box {
+    height:30px; padding:5px 5px 0 0; border-bottom-left-radius:6px; border-bottom-right-radius:6px;}
+#nav2 {
+    float:right;
+}
+#nav2 a {padding:0 10px;}
+#nav2 a, #topbarTitle a, #nav-links a, nav span, #ctaBox h3{color: #FFDC1F;}
+
+#ads {
+    margin-top: 3%;
+    height:140px;
+    padding:1.7% 0 0 1%;
+}
+
+#ads-vertical {
+    padding:30px 30px 0 40px;
+}
+
+.adBtn {
+    width:175px;
+    height:103px;
+    margin:0 .9% 0 .9%;
+}
+
+.adBtnVert {
+    width:175px;
+    height:103px;
+    margin-bottom:30px;
+}
+
+#ads a:nth-child(1), #ads-vertical a:nth-child(1) {background-image:url('../img/fender.jpg');background-size: 100%;}
+#ads a:nth-child(2), #ads-vertical a:nth-child(2){background-image:url('../img/gibson.jpg');background-size: 100%;}
+#ads a:nth-child(3), #ads-vertical a:nth-child(3){background-image:url('../img/ibanez.jpg');background-size: 100%;}
+#ads a:nth-child(4), #ads-vertical a:nth-child(4){background-image:url('../img/gretsch.jpg');background-size: 100%;}
+#ads a:nth-child(5), #ads-vertical a:nth-child(5){background-image:url('../img/martin.jpg');background-size: 100%;}
+
+footer div{
+    clear:both;
+    text-align:center;
+    height:60px;
+    margin-top:3%;
+    padding: 1% 0 1% 0;
+    color:#000;
+}
+
+footer a:link {font-style:italic;}
+
+.shape1 {border-radius: 6px;}
+
+.bg1{
+    border:1px solid #1D51FF;
+    background: rgba(29, 81, 255, .25)
+}
+
+.bg2{
+    border:1px solid #fff;
+    background: rgba(255, 255, 255, .75);
+}
+
+.linkD {text-decoration:none}
+.linkD:active{color:#fff;}
+.linkD:visited{color:#000;}
+.linkD:hover{color:#28a3df;text-shadow:2px 2px 2px #000;}
+/*================================Search Specific===================================*/
+#ctaBox {margin-top:2%;}
+#ctaInner {
+    padding:3%;
+}
+#cta {
+    height:460px;
+    background-image: url('../img/guitar.jpg');
+}
+#cta h3 {text-shadow:2px 2px 2px #000;font-size:1em;}
+#cta h3:nth-child(2){margin:230px 0 0 5%;}
+#cta h3:nth-child(3){margin:0 5% 2% 15%;}
+
+#ctaBtn{
+    float:right;
+}
+
+#search-form legend{font-size:1.2em;background:none;}
+#search-form {max-height:420px;}
+#fs1{border:none;}
+
+#slider-range{margin-bottom:5%;}
+.ui-slider-horizontal{width: 100%; height: .5em;}
+.ui-slider .ui-slider-handle{cursor: default; height: .9em; width:.7em; z-index: 2;}
+
+#searchBtn {
+    float:right;
+    margin-top:2%;
+}
+
+
+/*================================Search Specific===================================*/
+/*================================Results Specific===================================*/
+
+#userBox {
+    float:right;
+    padding-top:2%;
+}
+#userBox h3{float:left;}
+#userBox a{float:right;}
+
+.homeBtn, .myRackBtn{
+    margin:2% 0;
+    height:22px;
+    font-size: .7em;
+}
+
+#resultsOuter {margin-top:3%;}
+
+#resultsBox {
+    float:right;
+    height:475px;
+    margin:2%;
+    overflow:auto;
+}
+
+#resultsBox h2{
+    margin:3% 0 0 5%;
+}
+
+#accordion-resizer{background:none;}
+
+.resultsAcc{
+    margin:5% auto 0 auto;
+}
+
+
+
+.infoIcon{
+    display:inline-block;
+    float:right;
+    margin-right:2%;
+}
+
+#ctrlBox{
+    height:90%;
+    margin:2%;
+}
+#ctrlBox h2{margin:9% 0 15% 0; text-align:center;}
+#ctrlBox h3{margin:0 0 8% 35%;}
+
+.filterBtn {
+    margin:15% 0 15% 20%;
+}
+
+/*================================Results Specific===================================*/
+/*================================Details Specific===================================*/
+#detailsBox {
+    padding:3% 1.5% 0 1.5%;
+}
+#detailsOuter{
+    padding:30px 50px 29px 50px;
+}
+ #detailsLower h3,hr{margin:1px; padding:0;
+ }
+.table1 tr{}
+.table1 td:nth-child(odd){width:100px; line-height:100%; text-align:right;}
+.table1 td:nth-child(even){width:100px;}
+
+.username{font-style:italic;font-weight:bold;margin-bottom:0.5%;}
+/*================================Details Specific===================================*/
+/*================================My Rack Specific===================================*/
+#detailsInner{height:635px; overflow:hidden;}
+.myRackAcc{
+    width:95%;
+    margin:0 auto 3% 2.5%;
+}
+/*================================My Rack Specific===================================*/
+/*================================Register Specific===================================*/
+#regOuter{
+    margin:3% 0 0 0;
+}
+#regInner {
+    margin:4%;
+}
+#regInner h2{
+    margin-bottom:30px;
+}
+#termsCond{
+}
+.regBtn{
+    margin-top:15px;
+}
+/*================================Register Specific===================================*/
+/*================================Depth Effect======================================*/
+.depth {
+    display: block;
+    padding: 3%;
+    color: #0e3468;
+    position: relative;
+}
+
+.depth:before, .depth:after {
+    content: attr(title);
+    padding: 3%;
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+
+.depth:before { top: 1px; left: 1px }
+.depth:after  { top: 2px; left: 2px }
