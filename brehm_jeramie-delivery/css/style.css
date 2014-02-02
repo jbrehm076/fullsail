@@ -212,6 +212,20 @@ footer a:link {font-style:italic;}
     margin-top:15px;
 }
 /*================================Register Specific===================================*/
+/*================================Login Specific===================================*/
+#logOuter{
+    margin:3% 0;
+    padding: 4% 0;
+}
+#logForm {
+    margin-top:2%;
+}
+
+.memberLinks {
+    margin:20px 0;
+}
+
+/*================================Login Specific===================================*/
 /*================================Depth Effect======================================*/
 .depth {
     display: block;

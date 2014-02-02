@@ -7,7 +7,7 @@ $(function(){
 		track: true
 	});
 
-	$(".adBtn,.adBtnVert, .loginBtn, .searchBtn, .infoIcon, .filterBtn, .homeBtn, .myRackBtn,.regBtn")
+	$(".adBtn,.adBtnVert, .loginBtn, .searchBtn, .infoIcon, .filterBtn, .homeBtn, .myRackBtn,.regBtn,#logBtn")
 		.button()
 		.click(function(event){
 		event.preventDefault();
@@ -50,6 +50,10 @@ $(function(){
 	$(".myRackBtn").on('click',function(){
 		window.location = 'favorites.html';
 	});
+
+    $("#logBtn").on('click',function(){
+        window.location = 'home.html';
+    });
 
 	$("#termsCond").on('click',function(){
 		var checkStat = ($("termsCond").is(':checked'));
