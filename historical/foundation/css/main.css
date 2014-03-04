@@ -1,0 +1,13 @@
+/* Default CSS */
+body { 
+     background-color:#FFEBCD;
+}
+
+.photos { 
+        margin: 0;
+}
+
+footer { 
+       background-color: gray;
+       text-align: center;
+}

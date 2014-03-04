@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Find Guitars and Reviews">
+    <meta name="keywords" content="Guitars,Electric,Acoustic,Bass">
+    <meta name="author" content="Jeramie Brehm">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Zone</title>
+    <link rel="icon" type="image/ico" href="img/favicon.ico"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700italic,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/jquery-ui-css/jquery-ui-1.10.3.custom.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/modernizr.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47502307-1', 'guitarzone.com');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+<!--============================HEADER AREA START=====================================-->
+
+<header class="row bg2">
+    <div class="large-12 medium-12 columns">
+        <div class="row">
+            <div id="logoBox" class="large-5 medium-6 show-for-medium-up columns">
+                <a href="home.html"><img src="img/guitarZone.png" alt="Guitar Zone"></a>
+            </div>
+            <div id="userBox" class="large-4 medium-4 columns">
+                <h3>Jeff Shredright</h3>
+                <a class="shape1 homeBtn">Log Out</a>
+                <a class="shape1 myRackBtn">My Rack</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--============================HEADER AREA STOP======================================-->
+<!--============================NAV AREA START=====================================-->
+<div id="nav2Box" class="bg1 hide-for-small row">
+    <div class="large-12 medium-12 columns">
+        <div id="nav2" class="row  show-for-medium-up">
+            <div class="large-12 medium-12  columns">
+                <a href="home.html">Home</a>
+                <a href="results.html">Results</a>
+                <a href="details.html">Details</a>
+                <a href="favorites.html">Favorites</a>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="top-bar show-for-small bg1" data-topbar>
+    <ul class="title-area">
+        <li class="name">
+            <h1 id="topbarTitle"><a href="home.html">Guitar Zone</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section id="nav-links" class="top-bar-section">
+        <ul class="right">
+            <li class=""><a href="#">Log In</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+    </section>
+</nav>
+<!--============================NAV AREA STOP=======================================-->
+<!--============================REGISTRATION AREA START======================================-->
+<section  class="row">
+    <div id="regOuter" class="large-10 large-push-1 medium-12 columns bg1 shape1">
+        <div class="row">
+            <div id="regInner" class="large-11 medium-11 small-12 columns bg2 shape1">
+                <h2>Register your new account</h2>
+                <form>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label>Member Name</label>
+                            <input type="text" placeholder="Enter your member ID here" />
+                        </div>
+                        <div class="large-6 columns">
+                            <label>Choose a password</label>
+                            <input type="password" placeholder="At least 8 digits" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-4 medium-4 columns">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter first name here" />
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter last name here" />
+                        </div>
+                        <div class="large-4 medium-4 columns">
+                            <div class="row collapse">
+                                <label>Contact Email</label>
+                                <div class="small-9 columns">
+                                    <input type="text" placeholder="jhendrix@awesome" />
+                                </div>
+                                <div class="small-3 columns">
+                                    <span class="postfix">.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label>Current Skill Level</label>
+                            <select>
+                                <option value="beginner">Beginner</option>
+                                <option value="novice">Novice</option>
+                                <option value="advanced">Advanced</option>
+                                <option value="pro">Pro</option>
+                                <option value="vanHalen">Van Halen's lost brother</option>
+                            </select>
+                        </div>
+                        <div class="large-6 columns">
+                            <label>Member Name</label>
+                            <input type="text" placeholder="Enter your member ID here" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-8 large-push-4 columns">
+                            <label></label>
+                            <div class="large-12 medium-10 small-12 columns">
+                                <input id="termsCond" type="checkbox"><label for="termsCond">Agree to the site <a
+                                    href=""
+                                    >policies</a></label>
+                            </div>
+                            <div class="large-12 columns">
+                                <input id="mailList" type="checkbox"><label for="mailList">Receive email
+                                updates</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-3 large-offset-9 columns">
+                            <a href="#" class="regBtn button radius disabled"> Register</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="row">
+    <div id="ads" class="bg1 shape1 large-12 medium-12 columns hide-for-medium-down">
+        <a class="adBtn" href="http://www.fender.com"></a>
+        <a class="adBtn" href="http://www.gibson.com"></a>
+        <a class="adBtn" href="http://www.ibanez.com"></a>
+        <a class="adBtn" href="http://www.gretsch.com"></a>
+        <a class="adBtn" href="http://www.martin.com>"></a>
+    </div>
+</section>
+
+<!--============================REGISTRATION AREA STOP=======================================-->
+<!--============================FOOTER START========================================-->
+<footer class="row">
+    <div class="bg1 large-12 medium-12 small-12 columns">
+        <p>&copy; 2014 <a class="linkD" href="http://www.brehmdesigns.com">brehmdesigns.com</a></p>
+    </div>
+</footer>
+<!--============================FOOTER STOP=========================================-->
+<!--============================SCRIPT AREA=========================================-->
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

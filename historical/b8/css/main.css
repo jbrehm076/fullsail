@@ -1,0 +1,114 @@
+/*css*/
+
+body {/*big fan of helvetica*/
+     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+     font-size: 100%;
+     background-color: #fffee2;
+     padding: 2%;
+}
+
+header, #library{ 
+       width: 80%;
+       margin-left:auto;
+       margin-right:auto;
+       padding: 1%;
+       border-radius: 5px;
+      
+}
+header{ 
+       background-color: gray;  
+       box-shadow: 5px 10px 35px #000000;
+}
+
+header h1 { 
+       text-align: center;
+}
+
+#library { 
+        margin-top: 4%;
+        
+}
+
+ul { 
+        list-style-type:none;
+}
+#horiz, #vert {
+        
+}
+
+#vert { 
+       width: 75%;
+       margin-left:auto;
+       margin-right:auto;
+}
+
+p   {
+    float:left; 
+    width:auto;
+    height:100%;
+}
+
+img { 
+       width:100%
+      
+}
+
+#horiz p { 
+       padding-left: 1.5%;
+       
+}
+
+#vert p { 
+       padding-left: 1.5%;
+}
+
+#horiz p:nth-child(1) { 
+       opacity: .4;
+       -webkit-transition: opacity 1s ease-in;
+	   -moz-transition: opacity 1s ease-in;
+	   -o-transition: opacity 1s ease-in;
+	   transition: opacity 1s ease-in; 
+}
+
+#horiz p:nth-child(1):hover { 
+       opacity:100;
+}
+
+#horiz p:nth-child(2), #horiz p:nth-child(3), #vert p:nth-child(1), #vert p:nth-child(2), #vert p:nth-child(3) { 
+       -webkit-transition:all 2s ease;
+       -ms-transition:all 2s ease;
+       -moz-transition:all 2s ease;
+       transition:all 2s ease;
+}
+
+#horiz p:nth-child(2):hover{
+       -webkit-transform:rotate(90deg);
+       -ms-transform:rotate(90deg);
+       transform:rotate(90deg);
+}
+
+#horiz p:nth-child(3):hover{ 
+       -webkit-box-shadow:3px 3px 5px #000000;
+       -moz-box-shadow:3px 3px 5px #000000;
+       box-shadow:3px 3px 5px #000000;
+}
+
+#vert p:nth-child(1):hover{ 
+      -webkit-transform:rotateY(360deg);
+      -moz-transform:rotateY(360deg);
+      transform:rotateY(360deg);
+}
+
+#vert p:nth-child(2):hover{ 
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      transform:scale(1.2);
+}
+
+#vert p:nth-child(3):hover{ 
+      -webkit-transform:skew(20deg,30deg);
+      -moz-transform:skew(20deg,30deg);
+      -ms-transform:skew(20deg,30deg);
+      transform:skew(20deg,30deg);
+}
