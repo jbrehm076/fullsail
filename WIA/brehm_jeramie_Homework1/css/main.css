@@ -1,0 +1,9 @@
+#row1 div,#row2 div{
+    display:inline;
+}
+canvas{
+    border: 1px solid black;
+}
+#image1{
+    display:none;
+}
