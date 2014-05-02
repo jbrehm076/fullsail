@@ -1,0 +1,1 @@
+Installed Python 3.3.5Needed the following to accomplish:1. libsqlite32. sqlite33. bzip2setup alias of “py” to execute python ver. 3.3.5. Have not removed default 2.7 version and modified system pointers for “python” alias.Installed apticron and setup daily security checks and version checks with email via gmail for notification.Railo 4.1 installed w/o any issues. 
